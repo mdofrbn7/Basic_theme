@@ -1,8 +1,9 @@
-header.header-area .nav{
+header.header-area .nav {
     display: flex;
     flex-direction: row;
 }
-header.header-area .nav .toggle-button{
+
+header.header-area .nav .toggle-button {
     margin-left: auto;
     display: none;
     border: 1px solid var(--light);
@@ -13,29 +14,36 @@ header.header-area .nav .toggle-button{
     box-shadow: var(--box-shadow);
     cursor: pointer;
 }
-header.header-area .nav .toggle-button:hover{
+
+header.header-area .nav .toggle-button:hover {
     color: var(--gray);
 }
-.navbar-nav{
+
+.navbar-nav {
     list-style-type: none;
     display: flex;
     flex-direction: row;
 }
-.collapse{
+
+.collapse {
     display: flex;
     flex-direction: row;
     width: 100%;
 }
-.navbar-nav .nav-link{
+
+.navbar-nav .nav-link {
     padding: 0 1vw;
 }
-.navbar-nav .nav-link .link:hover{
+
+.navbar-nav .nav-link .link:hover {
     color: var(--primary-color);
 }
-.nav .nav-brand{
+
+.nav .nav-brand {
     font: normal 700 1.1rem var(--font-mont);
 }
-header.header-area .form-group{
+
+header.header-area .form-group {
     background: var(--light);
     box-shadow: var(--box-shadow);
 }
@@ -45,18 +53,47 @@ header.header-area .input-control {
     padding: .6rem 1rem;
     background: transparent;
     font: normal 300 .9rem var(--font-rale);
-
 }
 
-header.header-area button.btn.btn-submit{
+header.header-area button.btn.btn-submit {
     border: none;
     padding: .8rem 1rem;
     cursor: pointer;
     transition: background .5s ease;
 }
-header.header-area button.btn.btn-submit:hover{
+
+header.header-area button.btn.btn-submit:hover {
     background: var(--primary-color);
 }
 
 
 /* responsive toggle menu */
+
+@media (max-width: 992px) {
+    header.header-area .toggle-button {
+        display: block !important;
+    }
+    .nav {
+        flex-wrap: wrap;
+        height: 40px;
+    }
+    header.header-area .nav .collapse,
+    header.header-area .nav .navbar-nav {
+        flex-direction: column;
+        margin: auto;
+        text-align: center;
+    }
+    header.header-area .form-group {
+        display: inline-block;
+        margin: 2% 0;
+    }
+    header.header-area .nav-link {
+        padding: 10px 0 !important;
+    }
+    header.header-area {
+        height: 60px;
+        background: var(--dark);
+        transition: height .5s ease;
+        overflow-y: hidden;
+    }
+}
