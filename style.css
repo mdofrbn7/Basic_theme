@@ -45,7 +45,7 @@ body{
     border: 1px solid var(--light);
     padding: 10px 20px;
     border-radius: 50px;
-    margin-left: 1.5rem;
+    margin-left: 1.5rem; 
     background: var(--light);
     box-shadow: var(--box-shadow2);
     color: var(--gray);
