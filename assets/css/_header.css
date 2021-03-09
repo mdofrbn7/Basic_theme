@@ -93,7 +93,7 @@ header.header-area button.btn.btn-submit:hover {
     header.header-area {
         height: 60px;
         background: var(--dark);
-        transition: height .5s ease;
+        transition: height.5s ease;
         overflow-y: hidden;
     }
 }
