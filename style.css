@@ -8,6 +8,8 @@
 /* include Grid css file */
 @import url(/assets/css/_grid.css);
 
+
+
 html,body{
     height: 100%;
     width: 100%;
@@ -106,4 +108,90 @@ aside.sidebar .latest-post .new-post .post-title{
 }
 aside.sidebar .latest-post .new-post .post-image img{
     border-radius: 5rem;
+}
+
+aside.sidebar .search-area{
+    padding: 8rem 0;
+
+}
+aside.sidebar .search-area .search .form-group{
+    width: 273px;
+    box-shadow: var(--box-shadow2);
+}
+/* Popular tags */
+aside.sidebar .popular-tags,
+footer.footer-area .popular-tags{
+    padding: 4rem 0;
+
+}
+aside.sidebar .popular-tags .tags a,
+footer.footer-area .popular-tags a{
+    margin: 1.3rem 0;
+}
+aside.sidebar .popular-tags .tags a span,
+footer.footer-area .popular-tags a span{
+    padding: 1rem 2rem;
+    background: var(--light);
+    border-radius:50px;
+    margin-right: 1rem;
+    color: var(--dark);
+    transition: background.7s ease;
+
+}
+aside.sidebar .popular-tags .tags a:hover span,
+footer.footer-area .popular-tags .tags a:hover span{
+    background: var(--primary-color);
+    border: 1px solid var(--border);
+}
+/* pagination area */
+.main-area .pagination{
+    background: var(--light);
+    margin: 2rem 0;
+    display: inline-block;
+    padding: 1rem .7rem;
+    border-radius: 50px;
+}
+.main-area .pagination a span{
+    padding: .6rem 1rem;
+    border-radius: 450px;
+}
+.main-area .pagination a:hover span{
+    background: var(--primary-color);
+    color: var(--light);
+}
+
+/* footer area */
+footer.footer-area{
+    background: var(--dark);
+    padding: 1% 10%;
+}
+footer.footer-area > .row{
+    padding: 5% 0;
+}
+footer.footer-area p.para,
+footer.footer-area .social-media,
+footer.footer-area .recent-post,
+footer.footer-area .popular-tags{
+    padding-left: 1.5rem;
+    padding-top: .9rem;
+}
+footer.footer-area .social-media a{
+    padding-right: 1rem;
+}
+
+footer.footer-area .recent-post .column{
+    flex: 25%; 
+    max-width: 25%;
+    padding: 0;
+}
+footer.footer-area .recent-post .posts{
+    padding-top: .9rem;
+}
+
+footer.footer-area .popular-tags .tags a span{
+    padding: .8rem 1rem;
+}
+footer.footer-area .popular-tags .tags a{
+    margin-left: 0rem;
+    margin-top: 2rem;
 }
