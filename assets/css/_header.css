@@ -97,3 +97,7 @@ header.header-area button.btn.btn-submit:hover {
         overflow-y: hidden;
     }
 }
+
+.nav-collapse {
+    height: 24rem !important;
+}

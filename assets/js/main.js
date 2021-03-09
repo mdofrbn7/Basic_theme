@@ -1,5 +1,5 @@
-let toggleButton = document.querySelector("nav .toggle-button");
+let toggle_button = document.querySelector(".nav .toggle-button");
 let header = documner.querySelector('header.header-area');
-toggleButton.onclink = (e) => {
+toggleButton.onclink = function(e) {
     header.classlist.toggle('nav-collapse');
 }
