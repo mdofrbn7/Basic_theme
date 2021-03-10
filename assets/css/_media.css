@@ -15,15 +15,15 @@
     aside.sidebar .latest-post .new-post .post-image{
         width: 40%;
     }
-    footer.footer-area > .row div{
+    footer.footer-area >.row div{
         padding-top: 5%;
     }
 }
 
 /* media for viewport 505px or grater */
 @media (min-width: 505px){
-    .main-ara .banner-area .banner img{
-        height: 30rem;
+    .main-area .banner-area .banner img{
+        height: 22rem;
     }
     aside.sidebar .latest-post .new-post .post-image{
         width: 18%;
@@ -39,13 +39,13 @@
     .main-area .post-area .col8-lg .grid{
         column-count: 2;
     }
-    .main-ara .banner-area .banner img{
-        height: 27rem;
+    .main-area .banner-area .banner img{
+        height: 25rem;
     }
 }
 /* media for viewport 1200px or grater */
 @media (min-width: 1200px){
-    .main-ara .banner-area .banner img{
+    .main-area .banner-area .banner img{
         height: auto;
     }
     aside.sidebar .latest-post .new-post .post-image img{
