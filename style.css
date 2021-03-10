@@ -1,12 +1,13 @@
 
 /* import css files*/ 
 @import url(./assets/css/_variables.css);
-/* include header css file */
-@import url(./assets/css/_header.css);
 /* Global css file  */
 @import url(/assets/css/_global.css);
 /* include Grid css file */
 @import url(/assets/css/_grid.css);
+/* include header css file */
+@import url(./assets/css/_header.css);
+
 
 
 
@@ -115,7 +116,7 @@ aside.sidebar .search-area{
 
 }
 aside.sidebar .search-area .search .form-group{
-    width: 273px;
+    width: 237px;
     box-shadow: var(--box-shadow2);
 }
 /* Popular tags */
@@ -181,7 +182,7 @@ footer.footer-area .social-media a{
 
 footer.footer-area .recent-post .column{
     flex: 25%; 
-    max-width: 25%;
+    max-width: 25%; 
     padding: 0;
 }
 footer.footer-area .recent-post .posts{

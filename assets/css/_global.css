@@ -3,12 +3,12 @@ a{
 }
 .fluid{
     width: 100%;
-    height: 100%;
+    height: auto; 
 }
 .mr-auto{
     margin-right: auto;
 }
-.mr-auto{
+.ml-auto{
     margin-left: auto;
 }
 .text-dark{

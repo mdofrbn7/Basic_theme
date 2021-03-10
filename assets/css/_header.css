@@ -50,7 +50,7 @@ aside.sidebar .search-area .form-group{
 }
 
 header.header-area .input-control,
-aside.sidebar .search-area .input-control {
+aside.sidebar .search-area .search .input-control {
     border: none;
     padding: .6rem 1rem;
     background: transparent;

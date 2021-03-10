@@ -1,4 +1,4 @@
-/* media for viewport 0px or grater */
+ /* media for viewport 0px or grater */
 @media (min-width: 0px){
     .main-area .banner-area .banner img{
         height: 15rem;
